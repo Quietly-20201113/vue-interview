@@ -1,0 +1,60 @@
+.screening-plan-body{
+
+    .screening-plan-right-head{
+        .screening-plan-right-head-title{
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .screening-plan-right-head-input{
+            margin-top: 12px;
+        }
+        .button-div{
+            text-align: left;
+            margin: 24px 0;
+            .screening-plan-right-head-button{
+                padding: 0 30px;
+                margin-right: 12px;
+            }
+        }
+       
+        .ant-radio-group{
+            display: table-caption;
+        }
+        .ant-radio-wrapper{
+            text-align: left;
+        }
+        .form-body{
+            height: 300px;
+            overflow-y: auto;
+            .head-form-row{
+                // height: 45px;
+                border-left:1px solid #f5f5f5;
+                .head-form-col{
+                    border-style:solid;
+                    border-width: 1px;
+                    border-color:#f5f5f5;
+                    border-left:#f5f5f5;
+                    .head-form-item{
+                        padding: 2px 4px;
+                        text-align: center;
+                    }
+                    .ant-form-item{
+                        margin-bottom: 0;
+                    }
+                    .form-delete-button{
+                        background-color: #f5f5f5;
+                        border-width: 0;
+                        margin: 2px 4px;
+                        height: 30px;
+                        width: calc(100% - 16px)
+                    }
+                }
+            }
+        }
+       
+        
+        
+    }
+}
