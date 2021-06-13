@@ -34,3 +34,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### 配置scss样式,抽离样式与页面
 
 ### 集成内容是否为空判断
+
+### 使用vue3 计算属性处理单选更改时触发修改input内容

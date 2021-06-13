@@ -14,53 +14,6 @@
  */
 
 
-
-
-
-/**、
- * 方案逻辑处理js
- */
-const ProgramJs = () => {
-
-    ///拼接显示条件
-    /**
-     * 
-     * @param {oldData} [旧数据]
-     * @param {condition} [选中状态]
-     * @param {isSwitch} [是否进行过切换]
-     */
-   const splicingDisplayCondition = async ({oldData,condition,isSwitch}) => {
-
-    let _oldData = [...oldData];
-
-    let _arr = _oldData.map(v => v.title);
-    // if(isSwitch){
-        
-    // }
-
-    switch(condition){
-        case programCondition.AND_THE_CONDITION : 
-           let _str = '';
-           
-           await _arr
-        return 
-    }
-
-    
-
-
-
-   }
-
-
-
-
-
-}
-
-export default ProgramJs;
-
-
 //方案dict
 export const programCondition = {
     AND_THE_CONDITION : 'AND_THE_CONDITION',///并且
@@ -70,3 +23,17 @@ export const programCondition = {
     LEFT_PARENTHESIS : 'LEFT_PARENTHESIS',///左边括号
     RIGHT_PARENTHESIS : 'RIGHT_PARENTHESIS'//右边括号
 }
+
+///生成符号
+export const programConditionSymbol = {
+    [programCondition.AND_THE_CONDITION ] : 'and',
+    [programCondition.SINGLE_AND_THE_CONDITION] : 'and',
+    [programCondition.ARBITRARY_CONDITIONS] : 'or',
+    [programCondition.SINGLE_ARBITRARY_CONDITIONS] : 'or',
+    [programCondition.LEFT_PARENTHESIS] : '(',
+    [programCondition.RIGHT_PARENTHESIS] : ')',
+    '-1' : '-1'
+}
+
+
+
